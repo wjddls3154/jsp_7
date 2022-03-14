@@ -11,52 +11,52 @@
       
       // 문자(txt) 사용 예시
 
-      document.write(txt.length); // txt 의 길이, 공백까지 합쳐서, 15의 수가 나온다.
+      document.write(txt.length); // 1. txt 의 길이, 공백까지 합쳐서, 15의 수가 나온다.
 
       document.write("<br>");
 
-      document.write(txt.indexOf("CEO")); // 인덱스 8번째 부터 CEO 가 시작해서, 값이 8이 나온다.
+      document.write(txt.indexOf("CEO")); // 2. 인덱스 8번째 부터 CEO 가 시작해서, 값이 8이 나온다.
 
       document.write("<br>");
 
-      document.write(txt.slice(0, 7)); // 인덱스 0번부터 7번 전까지의 값, paullab 이 나온다.
+      document.write(txt.slice(0, 7)); // 3. 인덱스 0번부터 7번 전까지의 값, paullab 이 나온다.
 
       document.write("<br>");
 
-      document.write(txt.replace("CEO", "CTO")); // CEO 라는 글자를, CTO 로 대체해준다.
+      document.write(txt.replace("CEO", "CTO")); // 4. CEO 라는 글자를, CTO 로 대체해준다.
 
       document.write("<br>");
 
-      document.write(txt.toUpperCase()); // txt 값이, 모두 대문자로 변경된다.
+      document.write(txt.toUpperCase()); // 5. txt 값이, 모두 대문자로 변경된다.
 
       document.write("<br>");
 
-      document.write(txt.toLowerCase()); // txt 값이, 모두 소문자로 변경된다.
+      document.write(txt.toLowerCase()); // 6. txt 값이, 모두 소문자로 변경된다.
 
       document.write("<br>");
 
 
       // 숫자(num) 사용 예시
-      document.write(num.toFixed(6)); // 소수점 6자리가 뒤에 붙게 해줘라.
+      document.write(num.toFixed(6)); // 7. 소수점 6자리가 뒤에 붙게 해줘라.
 
       document.write("<br>");
 
-      document.write(num.toString()); // 숫자를, string 형으로 변환을 해줘라
+      document.write(num.toString()); // 8. 숫자를, string 형으로 변환을 해줘라
 
       document.write("<br>");
 
-      document.write(Math.PI); // PI = 3.14
+      document.write(Math.PI); // 9. PI = 3.14
 
       document.write("<br>");
 
-      document.write(Math.max(10, 20, 30)); // 주어진 값 중 최대값 구하기
+      document.write(Math.max(10, 20, 30)); // 10. 주어진 값 중 최대값 구하기
 
       document.write("<br>");
 
-      document.write(Math.min(10, 20, 30)); // 주어진 값 중, 최소값 구하기
+      document.write(Math.min(10, 20, 30)); // 11. 주어진 값 중, 최소값 구하기
 
       document.write("<br>");
 
-      document.write(Math.random() * 10); // 랜덤한 수
+      document.write(Math.random() * 10); // 12. 랜덤으로 뽑은 수 * 10
 
       document.write("<br>");
